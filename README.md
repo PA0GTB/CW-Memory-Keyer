@@ -1,6 +1,6 @@
-e# CW-Memory-Keyer
+
 a CW Keyer with memory to store Macro's - 
-a CW Keyer to genarate Morsecode via a PS/2 Keyboard - 
+a CW Keyer to generate Morsecode via a PS/2 Keyboard - 
 Original design bij Glen Popiel (KW5GP) and desbribed in the book Arduino Projects for Amateur Radio - 
 added several modifications bij Cor Struyk, PA0GTB :
 -  Using a Arduino Mega2560 for more memory and Macro-key space
