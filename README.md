@@ -14,3 +14,15 @@ added several modifications bij Cor Struyk, PA0GTB :
 -  Changed the code for increasing and decreasing Keying speed
 -  Changed initial CW speed to 18 wpm
 -  Changed the "error CW code"to standard, min 8 dits, Key DEL of BS
+-------------------------------------------------------------------------
+Additional modification by Cor Struyk, PA0GTB and Edwin Arts, PA7FRN, october 2017
+   Changing the behavior of the 20x4 LCD Display
+   
+   Added additional "Class" ScrolLCD.cpp
+   This class changes the sequence of scrolling the lines on the 20x4 LCD display
+   from 0-2-1-3 to 0-1-2-3. Both files, ScrolLCD.cpp and ScrolLCD.h must be added to
+   the library directory
+
+   Cleaning up the code and removed not used constants and declarations
+   Renamed the Booleans status behavior
+   added LCD adress constant
