@@ -1,4 +1,5 @@
 
+
 a CW Keyer with memory to store Macro's - 
 a CW Keyer to generate Morsecode via a PS/2 Keyboard - 
 Original design bij Glen Popiel (KW5GP) and desbribed in the book Arduino Projects for Amateur Radio - 
@@ -26,3 +27,6 @@ Additional modification by Cor Struyk, PA0GTB and Edwin Arts, PA7FRN, october 20
    Cleaning up the code and removed not used constants and declarations
    Renamed the Booleans status behavior
    added LCD adress constant
+   --
+   Added mofified ps2keyboard library due to enlarged keyboard buffer for this project
+   and the necesaary Morse library
