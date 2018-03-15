@@ -29,4 +29,4 @@ Additional modification by Cor Struyk, PA0GTB and Edwin Arts, PA7FRN, october 20
    added LCD adress constant
    --
    Added modified ps2keyboard library due to enlarged keyboard buffer for this project
-   and the necesaary Morse library
+   and the necessary Morse library
