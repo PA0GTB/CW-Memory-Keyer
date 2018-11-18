@@ -23,10 +23,9 @@ Additional modification by Cor Struyk, PA0GTB and Edwin Arts, PA7FRN, october 20
    This class changes the sequence of scrolling the lines on the 20x4 LCD display
    from 0-2-1-3 to 0-1-2-3. Both files, ScrolLCD.cpp and ScrolLCD.h must be added to
    the library directory
-
+   --
    Cleaning up the code and removed not used constants and declarations
-   Renamed the Booleans status behavior
-   added LCD adress constant
+   Renamed the Booleans status behavior, added LCD Adress constant
    --
    Added modified ps2keyboard library due to enlarged keyboard buffer for this project
    and the necessary Morse library
