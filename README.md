@@ -21,7 +21,7 @@ Additional modification by Cor Struyk, PA0GTB and Edwin Arts, PA7FRN, october 20
    
    Added additional "Class" ScrolLCD.cpp
    This class changes the sequence of scrolling the lines on the 20x4 LCD display
-   from 0-2-1-3 to 0-1-2-3. Both files, ScrolLCD.cpp and ScrolLCD.h must be placed at the same postion of this sketch
+   from 0-2-1-3 to 0-1-2-3. Both files, ScrolLCD.cpp and ScrolLCD.h must be placed at the same position where the sketch can be found
    --
    Cleaning up the code and removed not used constants and declarations
    Renamed the Booleans status behavior, added LCD Adress constant
