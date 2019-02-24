@@ -9,6 +9,11 @@
 //
 // Corrected Morse Code errors , Glen Popiel KW5GP
 //
+// February, 2019
+// additional modification to add Progsigns KA, SK, BK
+//  [ is now KA, ] = SK,  \ = BK
+//  
+//
 // Usage:
 //         Morse <handle>(<outputpin>, <speed>);
 //         <handle>.sendmsg (*str);
@@ -81,12 +86,12 @@ const  byte _morsetab[] = {	// Those with value 1 has no morsecode - code is dec
     25,  //ASCII 88 X
     29,  //ASCII 89 Y
     19,  //ASCII 90 Z
-    1,   //ASCII 91 [    
-    64,   //ASCII 92 backslash    
-    1,   //ASCII 93 ]   
+    53,  //ASCII 91 [           // changed to 53  for progsign KA  ( was 1)
+    64, //ASCII 92 backslash       
+	104, //ASCII 93 ]           // changed to 104 for progsign SK  ( was 1)
     1,   //ASCII 94 ^
     108,  //ASCII 95 _    
-    94,  //ASCII 96 `    
+    209,  //ASCII 96 `           // changed to 209  for progsign BK  (was 94)
     6,   //ASCII 97 a
     17,  //ASCII 98 b
     21,  //ASCII 99 c
