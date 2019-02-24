@@ -1,4 +1,3 @@
-s
 
 a CW Keyer with memory to store Macro's - 
 a CW Keyer to generate Morsecode via a PS/2 Keyboard - 
@@ -28,3 +27,9 @@ Additional modification by Cor Struyk, PA0GTB and Edwin Arts, PA7FRN, october 20
    --
    Added modified ps2keyboard library due to enlarged keyboard buffer for this project
    and the necessary Morse library
+   
+   February 2019
+   Modified program sketch and Morse Library
+   Added some Progsigns like AR, BT, BK, KA and SK
+   Used progsigns are shown on LCD Display
+   
