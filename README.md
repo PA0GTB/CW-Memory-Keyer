@@ -35,5 +35,5 @@ Additional modification by Cor Struyk, PA0GTB and Edwin Arts, PA7FRN, october 20
    
    April 2020
    Its important that you nuse the right LiquidCrystal display Library !
-   i use NewliquidCrystal. I containes all ther neccesary files
+   i use NewliquidCrystal. I containes all the neccesary files
    
